@@ -20,6 +20,18 @@ body {
 
 .pokedex {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
   margin: 10px 10px;
+  align-items: center;
+}
+
+.btn-next {
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: 700;
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  width: fit-content;
+  margin-top: 15px;
 }
